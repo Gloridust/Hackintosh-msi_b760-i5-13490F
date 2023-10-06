@@ -38,6 +38,14 @@
                     <key>Path</key>
                     <string>SSDT-USBX.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-UIAC.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -446,7 +454,7 @@
                     <key>Comment</key>
                     <string>V1.1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -464,7 +472,7 @@
                     <key>Comment</key>
                     <string>V1.1.1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/USBToolBox</string>
                     <key>MaxKernel</key>
@@ -539,6 +547,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/CpuTscSync</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>USBPorts.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -997,7 +1023,7 @@
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
-                <integer>30</integer>
+                <integer>3</integer>
             </dict>
             <key>Debug</key>
             <dict>
@@ -1223,13 +1249,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>F5K037404CDK3F7UE</string>
+                <string>F5K103802GUK3F7CB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>3841</integer>
                 <key>ROM</key>
-                <data>27f47/KN</data>
+                <data>ErxiroCw</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1237,9 +1263,9 @@
                 <key>SystemProductName</key>
                 <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KDD3Z0P7QM</string>
+                <string>F5KF4DZJP7QM</string>
                 <key>SystemUUID</key>
-                <string>AB4E6723-8856-4070-9B5E-EE353BC2F013</string>
+                <string>7D9C4488-9345-4ED5-B0C1-3E7BE0408ED6</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
