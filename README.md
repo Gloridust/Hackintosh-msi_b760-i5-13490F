@@ -10,7 +10,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/Gloridust/Hackintosh-msi_b760-i5-13490F?style=flat-square)
 ![GitHub issues closed](https://img.shields.io/github/issues-closed/Gloridust/Hackintosh-msi_b760-i5-13490F?style=flat-square)  
 
-此文档的语言为简体中文，仅针对中文用户。For English? [Please click here](https://github.com/Gloridust/Hackintosh-msi_b760-i5-/readme_en.md).
+此文档的语言为简体中文，仅针对中文用户。For English? [Please click here](https://github.com/Gloridust/Hackintosh-msi_b760-i5-/README_en.md).
 
 
 ## 支持版本
