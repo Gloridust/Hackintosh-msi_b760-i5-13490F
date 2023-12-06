@@ -1,4 +1,4 @@
-.# Hackintosh EFI
+# Hackintosh EFI
 
 ![GitHub release](https://img.shields.io/github/v/release/Gloridust/Hackintosh-msi_b760-i5-13490F?style=flat-square)
 ![GitHub release date](https://img.shields.io/github/release-date/Gloridust/Hackintosh-msi_b760-i5-13490F?style=flat-square)
