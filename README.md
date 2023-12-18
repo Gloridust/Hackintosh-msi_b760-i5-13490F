@@ -91,7 +91,7 @@
 | **EHCI/XHCI Hand-off**                | EHCI/XHCI 切换                                               |
 
 ### 更改 EFI
-- 建议使用OCA重新生成Pi中的序列号、UUID、ROM 等信息，避免三码冲突导致 iService 无法使用。
+- 建议使用 OCAT 重新生成Pi中的序列号、UUID、ROM 等信息，避免三码冲突导致 iService 无法使用。
 - 将 [EFI.examle](/EFI.example/) 文件夹重命名为 EFI，然后放进你的 ESP 引导分区即可。
 
 

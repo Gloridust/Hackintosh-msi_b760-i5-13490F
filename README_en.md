@@ -87,7 +87,7 @@ Then, refer to the BIOS recommendations provided in [Guoguang's tutorial](https:
 | **EHCI/XHCI Hand-off**                  | EHCI/XHCI handoff                                             |
 
 ### Modify EFI
-- It is recommended to use OCA to regenerate the serial number, UUID, ROM, and other information in Pi to avoid conflicts with three codes, leading to the inability to use iService.
+- It is recommended to use OCAT to regenerate the serial number, UUID, ROM, and other information in Pi to avoid conflicts with three codes, leading to the inability to use iService.
 - Rename the [EFI.example](/EFI.example/) folder to EFI and place it in your ESP boot partition.
 
 ## Acknowledgments
