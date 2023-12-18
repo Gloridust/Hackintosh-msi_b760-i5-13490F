@@ -43,11 +43,17 @@ In theory, as long as the brand and model of the motherboard are the same, and t
 - [x] Sleep / Keyboard and Mouse Wake
 - [x] Other Apple-like features (99%)
 
-### Currently not working:
+It is recommended to turn off the snooze function before using the sleep function, otherwise it will wake up abnormally and be unable to automatically fall back to sleep again.
 
-- [ ] Bluetooth audio devices cannot adjust volume.
+![sleep_fix](/readme_src/sleep_fix.png)
+
+### The current exceptions include
+
+- [ ] The audio output has multiple lines and cannot be blocked, but it does not affect use.
 - [ ] Sidecar black screen.
 - [ ] Front USB Type-C port on the case is not functional (if you don't have a Type-C port, you can ignore this).
+
+![voice_output_error](/readme_src/voice_output_error.png)
 
 ## Before Using
 
