@@ -12,7 +12,12 @@
 
 ## Supported Versions
 
-Currently tested on macOS 13, it is recommended to install macOS 12-13, and macOS 14 has not been tested yet.
+OpenCore version: 0.9.7
+
+Optimized for Wi-Fi issues in macOS14.
+
+However, it has only been tested on macOS13 so far. It is recommended to install macOS12~13. macOS14 has not been tested yet.
+Note: **The Broadcom network card driver is missing in macOS14**. ~~You need to patch the driver kext by yourself~~. It is recommended to wait for a mature solution. **It is not recommended to upgrade macOS14**
 
 ## My Hardware
 
