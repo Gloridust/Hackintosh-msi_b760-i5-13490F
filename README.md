@@ -19,8 +19,10 @@ OpenCore 版本：0.9.7
 
 已针对 macOS14 的 Wi-Fi 问题进行优化。
 
-但目前仅在macOS13测试过，建议安装 macOS12～13，macOS14尚未测试。  
-注意：**macOS14中博通网卡驱动丢失**，~~需要自行修补驱动kext~~，建议等待成熟方案，**不建议升级macOS14**
+~~但目前仅在macOS13测试过，建议安装 macOS12～13，macOS14尚未测试。~~
+注意：**macOS14中博通网卡驱动丢失**，~~需要自行修补驱动kext，建议等待成熟方案，**不建议升级macOS14**!~~
+
+配置文件已调整至支持 macOS Sonoma 博通网卡的状态，升级后请使用 [OpenCore-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) 修复网卡。
 
 ## 我的硬件
 
