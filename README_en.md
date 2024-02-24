@@ -14,10 +14,9 @@
 
 OpenCore version: 0.9.7
 
-Optimized for Wi-Fi issues in macOS14.
+Optimized for Wi-Fi issues on macOS 14.
 
-However, it has only been tested on macOS13 so far. It is recommended to install macOS12~13. macOS14 has not been tested yet.
-Note: **The Broadcom network card driver is missing in macOS14**. ~~You need to patch the driver kext by yourself~~. It is recommended to wait for a mature solution. **It is not recommended to upgrade macOS14**
+Note: **Broadcom Wi-Fi drivers are missing in macOS 14**,you must do sth to fix it. Configurations have been adjusted to support Broadcom Wi-Fi cards in macOS Sonoma. After the update, please use [OpenCore-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) to fix the Wi-Fi card.
 
 ## My Hardware
 
